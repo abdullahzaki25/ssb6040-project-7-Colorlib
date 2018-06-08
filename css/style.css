@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+header{
+    background: #FAB700;
+    padding: 20px 0;
+}
+.container{
+    width: 1050px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin-top: 8px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 25px;
+}
+
+
+.banner-section{
+    background: #BD8B03;
+    padding: 150px 0;
+}
+.banner{
+    text-align: left;
+    color: white;
+}
+.banner span{
+    text-transform: uppercase;
+}
+.banner h1{
+    font-size: 4em;
+    margin: 15px 0;
+}
+.banner p{
+    width: 70%;
+}
+.banner a{    
+	background: #FAB700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
+.services-section{
+	padding: 100px 0;
+}
+.title{text-align: center;}
+.title h1{
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+.title p{
+    font-size: 17px;
+    margin: 0;
+    color: gray;
+}
+.services{
+    padding: 60px 0;
+    width: 33.33%;
+    float: left;
+}
+.services img{
+}
+.services h3{
+    font-size: 24px;
+    margin: 16px 0;
+}
+.services p{
+    width: 85%;
+    font-size: 15px;
+    color: gray;
+}
+
+
+.features-section{
+    padding: 50px 0;
+}
+.features{
+    width: 33.33%;
+    float: left;
+    padding: 50px 0;
+}
+.features h3{
+    font-size: 20px;
+}
+.features p{color: gray;}
+
+
+.numbers-section{
+    background: #FAB700;
+}
+.numbers{
+    width: 20%;
+    float: left;
+    padding: 80px 0;
+}
+.numbers h1{
+    font-size: 40px;
+    margin: 0;
+}
+.numbers p{
+    color: gray;
+    margin: 0;
+    font-size: 15px;
+}
+
+
+.gallery-section{
+    padding: 50px 0;
+}
+.gallery-up{
+    float: left;
+    width: 50%;
+    display: inline-flex;
+    margin-top: 50px;
+}
+.gallery-up img{
+    margin: 10px 10px;
+}
+.gallery-middle{
+    float: left;
+    width: 33.33%;
+    display: inline-flex;
+}
+.gallery-middle img{
+    margin: 10px 10px;
+}
+.gallery-bottom{
+	width: 50%;
+	float: left;
+	display: inline-flex;
+}
+.gallery-bottom img{
+    margin: 10px 15px 50px;
+}
+
+
+.blog-section{
+    padding: 50px 0;
+}
+.blogs{
+    width: 25%;
+    float: left;
+    padding: 50px 10px;
+}
+.blogs img{}
+.blogs span{
+    margin: 15px 0;
+    background: black;
+    padding: 5px 20px;
+    color: #999999;
+    display: inline-block;
+} 
+.blogs h3{
+    margin: 0;
+    font-size: 20px;
+}
+.blogs p{
+    color: gray;
+}
+
+
+footer{
+    background: #04091E;
+    padding: 90px 0;
+}
+.aboutus{
+    width: 40%;
+    float: left;
+    /* margin-right: 10px; */
+}
+.aboutus h3{
+    color: white;
+}
+.aboutus p{
+    color: gray;
+    width: 95%;
+}
+.aboutus span{
+    color: gray;
+    margin-top: 25px;
+    display: block;
+    width: 95%;
+}
+.aboutus span a{
+    color: #EB8E17;
+}
+.aboutus span b{
+    color: #EB8E17;
+}
+.newsletter{
+    width: 40%;
+    float: left;
+}
+.newsletter h3{
+    color: white;
+}
+.newsletter span{
+    color: gray;
+    margin-bottom: 20px;
+    display: block;
+}
+form{
+}
+form input[type="email"]{
+    width: 75%;
+    padding: 10px;
+    border: 0;
+}
+form input[type="submit"]{
+    padding: 11px;
+    margin: -3px;
+    background: #FAB700;
+    border: 0;
+    color: white;
+}
+.followus{
+    width: 20%;
+    float: left;
+}
+.followus h3{
+    color: white;
+}
+.followus span{
+    color: gray;
+    margin-bottom: 25px;
+    display: block;
+}
+.followus ul{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.followus ul li{
+    list-style: none;
+    display: inline-block;
+}
+.followus ul li a{
+    color: white;
+    margin-right: 20px;
+}

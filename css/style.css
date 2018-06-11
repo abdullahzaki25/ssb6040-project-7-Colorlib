@@ -15,15 +15,15 @@ img{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 }
-
-header{
-    background: #FAB700;
-    padding: 20px 0;
-}
 .container{
     width: 1050px;
     margin: 0 auto;
     overflow: hidden;
+}
+
+header{
+    background: #FAB700;
+    padding: 20px 0;
 }
 .logo{
     width: 20%;
@@ -94,18 +94,21 @@ nav ul li a{
     margin: 0;
     color: gray;
 }
-.services{
-    padding: 60px 0;
+.service-box{
+    padding: 60px 15px;
     width: 33.33%;
     float: left;
 }
-.services img{
+.service-box .services{
+    background: #F9F9FF;
+    padding: 20px;
 }
-.services h3{
+.service-box .services img{}
+.service-box .services h3{
     font-size: 24px;
     margin: 16px 0;
 }
-.services p{
+.service-box .services p{
     width: 85%;
     font-size: 15px;
     color: gray;
@@ -114,31 +117,37 @@ nav ul li a{
 
 .features-section{
     padding: 50px 0;
+    background: #F9F9FF;
 }
-.features{
+.features-box{
     width: 33.33%;
     float: left;
-    padding: 50px 0;
+    padding: 50px 10px;
 }
-.features h3{
+.features-box .features{
+    background: white;
+    padding: 20px;
+}
+.features-box .features h3{
     font-size: 20px;
 }
-.features p{color: gray;}
+.features-box .features p{color: gray;}
 
 
 .numbers-section{
     background: #FAB700;
 }
-.numbers{
+.number-box{}
+.number-box .numbers{
     width: 20%;
     float: left;
     padding: 80px 0;
 }
-.numbers h1{
+.number-box .numbers h1{
     font-size: 40px;
     margin: 0;
 }
-.numbers p{
+.number-box .numbers p{
     color: gray;
     margin: 0;
     font-size: 15px;
@@ -149,26 +158,21 @@ nav ul li a{
     padding: 50px 0;
 }
 .gallery-up{
-    float: left;
-    width: 50%;
     display: inline-flex;
     margin-top: 50px;
 }
 .gallery-up img{
-    margin: 10px 10px;
+    margin: 10px;
 }
 .gallery-middle{
-    float: left;
     width: 33.33%;
     display: inline-flex;
 }
 .gallery-middle img{
-    margin: 10px 10px;
+    margin: 10px;
 }
 .gallery-bottom{
-	width: 50%;
-	float: left;
-	display: inline-flex;
+    display: inline-flex;
 }
 .gallery-bottom img{
     margin: 10px 15px 50px;
@@ -240,15 +244,14 @@ footer{
     margin-bottom: 20px;
     display: block;
 }
-form{
-}
-form input[type="email"]{
+.newsletter form{}
+.newsletter form input{
     width: 75%;
     padding: 10px;
     border: 0;
 }
-form input[type="submit"]{
-    padding: 11px;
+.newsletter form button{
+    padding: 10px;
     margin: -3px;
     background: #FAB700;
     border: 0;
@@ -278,4 +281,7 @@ form input[type="submit"]{
 .followus ul li a{
     color: white;
     margin-right: 20px;
+}
+.followus ul li a:hover{
+    color: #FAB700;
 }
